@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Recommendor System</title>
+  </head>
+  <body>
+    <div class="container">
+    <nav class="navbar navbar-light bg-light">
+      <h3><a style="color:rgb(99, 56, 66)" class="nav-link" href="{{url_for('home')}}">Home</a></h3>
+    </nav>
+
+      <div class="jumbotron">
+        {% block content %}
+        {% endblock %}
+      </div>
+
+    </div>
+  </body>
+</html>
